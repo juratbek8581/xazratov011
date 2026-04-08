@@ -1,0 +1,73 @@
+#sttyle.css
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #121212;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #1f1f1f;
+}
+
+/* Navbar */
+nav {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(135deg, #0077ff, #00c6ff);
+}
+
+/* Section */
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #1e1e1e;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #0077ff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00c6ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+body.light {
+    background: white;
+    color: black;
+}
+
+body.light section {
+    background: #f4f4f4;
+}
